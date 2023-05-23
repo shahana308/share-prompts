@@ -1,4 +1,5 @@
 import Feed from "@components/Feed";
+import Button from "@components/button/Button";
 
 const Home = () => {
   return (
@@ -12,6 +13,9 @@ const Home = () => {
         Promptopia is an open source AI prompting tool for modern world to
         discover, create and share creative prompts.
       </p>
+      <Button variant="solid" size="normal">
+        Clear all
+      </Button>
     </section>
   );
 };

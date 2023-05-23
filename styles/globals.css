@@ -168,3 +168,11 @@
 .flex-between {
   @apply flex justify-between items-center;
 }
+
+.bg_black-900 {
+  background-color: #353535;
+}
+
+.border_red {
+  border-color: #e03d3d;
+}
